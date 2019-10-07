@@ -6,9 +6,13 @@
   "main": "package.json",
   "author": "OL Developers",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "sanity start",
-    "test": "sanity check"
+    "test": "sanity check",
+    "build": "sanity build"
   },
   "keywords": [
     "sanity"
@@ -24,5 +28,7 @@
     "react": "^16.2",
     "react-dom": "^16.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@sanity/cli": "^0.142.7"
+  }
 }
