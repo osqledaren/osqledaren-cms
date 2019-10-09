@@ -18,6 +18,7 @@
     "sanity"
   ],
   "dependencies": {
+    "@babel/core": "^7.6.3",
     "@sanity/base": "^0.142.6",
     "@sanity/components": "^0.142.6",
     "@sanity/core": "^0.142.6",
