@@ -1,0 +1,10 @@
+{
+  "name": "osqledaren-cms",
+  "version": 2,
+  "scope": "osqledaren",
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}
