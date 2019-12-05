@@ -8,6 +8,12 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import category from './documents/category'
 import article from './documents/article'
 import podcast from './documents/podcast'
+import creator from './documents/creator'
+import role from './documents/role'
+
+// Object types
+import addCreator from './documents/addCreator'
+import richText from './documents/richText'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,6 +26,10 @@ export default createSchema({
     // in the studio.
     category,
     article,
-    podcast
+    podcast,
+    creator,
+    role,
+    addCreator,
+    richText,
   ])
 })

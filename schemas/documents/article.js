@@ -11,6 +11,13 @@ export default {
       type: 'string'
     },
     {
+      name: 'creators',
+      title: ' Creators',
+      type: 'array',
+      of: [{type: 'addCreator'}]
+
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       description: 'You can use this field to schedule projects where you show them',
@@ -23,11 +30,10 @@ export default {
       to: [{type: 'category'}]
     },
     {
-      name: 'Image',
-      title: 'image',
-      type: 'image'
+      name: 'content',
+      title: 'Content',
+      type: 'richText',
     },
-
   ],
   preview: {
     select: {
