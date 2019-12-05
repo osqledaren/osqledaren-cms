@@ -12,8 +12,8 @@ import creator from './documents/creator'
 import role from './documents/role'
 
 // Object types
-import addCreator from './documents/addCreator'
-import richText from './documents/richText'
+import addCreator from './objects/addCreator'
+import richText from './objects/richText'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
