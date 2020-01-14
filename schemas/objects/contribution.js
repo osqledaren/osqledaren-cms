@@ -1,6 +1,6 @@
 export default {
-  name: 'addCreator',
-  title: 'Add Creator',
+  name: 'contribution',
+  title: 'Contribution',
   type: 'object',
   fields: [
     {

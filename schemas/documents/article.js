@@ -18,7 +18,7 @@ export default {
       title: 'Creators',
       description: 'Add all contributors to this project',
       type: 'array',
-      of: [{ type: 'addCreator' }],
+      of: [{ type: 'contribution' }],
     },
     {
       name: 'publishedAt',

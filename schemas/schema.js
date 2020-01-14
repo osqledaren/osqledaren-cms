@@ -12,7 +12,7 @@ import creator from './documents/creator';
 import role from './documents/role';
 
 // Object types
-import addCreator from './objects/addCreator';
+import contribution from './objects/contribution';
 import richText from './objects/richText';
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -29,7 +29,7 @@ export default createSchema({
     creator,
     category,
     role,
-    addCreator,
+    contribution,
     richText,
   ]),
 });
