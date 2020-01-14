@@ -1,5 +1,3 @@
-import {format} from 'date-fns'
-
 export default {
   name: 'addCreator',
   title: 'Add Creator',
@@ -9,20 +7,20 @@ export default {
       name: 'creator',
       title: 'Creator',
       type: 'reference',
-      to: [{type: 'creator'}]
+      to: [{ type: 'creator' }],
     },
     {
       name: 'role',
       title: 'Role',
       description: 'What was your role?',
       type: 'reference',
-      to: [{type: 'role'}]
+      to: [{ type: 'role' }],
     },
   ],
   preview: {
-      select: {
-          title: 'creator.name',
-          subtitle: 'role.name' 
-      },
-  }
-}
+    select: {
+      title: 'creator.name',
+      subtitle: 'role.name',
+    },
+  },
+};

@@ -1,4 +1,3 @@
-
 export default {
   name: 'podcast',
   title: 'Podcast',
@@ -7,27 +6,26 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'publishedAt',
       title: 'Published at',
-      description: 'You can use this field to schedule projects where you show them',
-      type: 'datetime'
+      description:
+        'You can use this field to schedule projects where you show them',
+      type: 'datetime',
     },
     {
       name: 'creators',
       title: 'Creators',
       description: 'Add all contributors to this project',
       type: 'array',
-      of: [{type: 'addCreator'}]
-
+      of: [{ type: 'addCreator' }],
     },
     {
       name: 'image',
       title: 'Image',
-      type: 'image'
-
+      type: 'image',
     },
     {
       name: 'description',
@@ -39,14 +37,13 @@ export default {
       name: 'file',
       title: 'File',
       type: 'file',
-      options: {accept: 'audio/*'}
+      options: { accept: 'audio/*' },
     },
     {
       name: 'spotifyLink',
       title: 'Link to episode on Spotify',
       type: 'url',
-
-    }
+    },
   ],
   preview: {
     select: {
@@ -54,5 +51,5 @@ export default {
       subtitle: 'publishedAt',
       media: 'image',
     },
-  }
-}
+  },
+};

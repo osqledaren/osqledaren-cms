@@ -1,5 +1,3 @@
-import {format} from 'date-fns'
-
 export default {
   name: 'creator',
   title: 'Creator',
@@ -8,12 +6,12 @@ export default {
     {
       name: 'name',
       title: 'Name',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'profilePicture',
       title: 'Profile Picture',
-      type: 'image'
+      type: 'image',
     },
   ],
-}
+};

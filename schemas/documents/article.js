@@ -1,39 +1,37 @@
-import {format} from 'date-fns'
-
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
   fields: [
-  	{
-  		name: 'mainImage',
-  		title: "Main image",
-  		type: 'image'
-  	},
+    {
+      name: 'mainImage',
+      title: 'Main image',
+      type: 'image',
+    },
     {
       name: 'title',
       title: 'Title',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'creators',
       title: 'Creators',
       description: 'Add all contributors to this project',
       type: 'array',
-      of: [{type: 'addCreator'}]
-
+      of: [{ type: 'addCreator' }],
     },
     {
       name: 'publishedAt',
       title: 'Published at',
-      description: 'You can use this field to schedule projects where you show them',
-      type: 'datetime'
+      description:
+        'You can use this field to schedule projects where you show them',
+      type: 'datetime',
     },
     {
       name: 'category',
       title: 'Category',
       type: 'reference',
-      to: [{type: 'category'}]
+      to: [{ type: 'category' }],
     },
     {
       name: 'ingress',
@@ -52,5 +50,5 @@ export default {
       subtitle: 'publishedAt',
       media: 'mainImage',
     },
-  }
- }
+  },
+};

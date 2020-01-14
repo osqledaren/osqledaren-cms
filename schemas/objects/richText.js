@@ -1,10 +1,5 @@
 export default {
-    name: 'richText',
-    type: 'array',
-    of: [
-        {type: 'block',
-    },
-        {type: 'image',
-    }
-    ],
-}
+  name: 'richText',
+  type: 'array',
+  of: [{ type: 'block' }, { type: 'image' }],
+};
