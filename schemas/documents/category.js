@@ -6,21 +6,21 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'colour',
       title: 'Colour',
-      type: 'image'
+      type: 'image',
     },
     {
       name: 'description',
       title: 'Description',
-      type: 'text'
+      type: 'text',
     },
   ],
   preview: {
     title: 'title',
     media: 'image',
-  }
-}
+  },
+};
