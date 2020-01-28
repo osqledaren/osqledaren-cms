@@ -9,6 +9,15 @@ export default {
       type: 'image',
     },
     {
+      title: 'Slug',
+      name: 'slug',
+      type: 'slug',
+      validation: R => R.required(),
+      options: {
+        source: doc => doc.title + '-' + doc.publishDate,
+      },
+    },
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
@@ -21,11 +30,9 @@ export default {
       of: [{ type: 'contribution' }],
     },
     {
-      name: 'publishedAt',
-      title: 'Published at',
-      description:
-        'You can use this field to schedule projects where you show them',
-      type: 'datetime',
+      title: 'Publish Date',
+      name: 'publishDate',
+      type: 'date',
     },
     {
       name: 'category',
@@ -47,7 +54,7 @@ export default {
   preview: {
     select: {
       title: 'title',
-      subtitle: 'publishedAt',
+      subtitle: 'publishDate',
       media: 'mainImage',
     },
   },
