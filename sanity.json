@@ -22,7 +22,7 @@
     },
     {
       "implements": "part:@sanity/base/brand-logo?",
-      "path": "/OLogo.js"
+      "path": "plugins/OLogo.js"
     }
   ]
 }
