@@ -10,6 +10,18 @@ export default {
       validation: R => R.required(),
     },
     {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      validation: R => R.required(),
+    },
+    {
+      name: 'menu',
+      title: 'Show in menu',
+      type: 'boolean',
+      validation: R => R.required(),
+    },
+    {
       name: 'color',
       title: 'Color',
       type: 'color',
