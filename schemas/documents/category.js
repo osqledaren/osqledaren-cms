@@ -21,5 +21,14 @@ export default {
       type: 'text',
       validation: R => R.required(),
     },
+    {
+      title: 'Slug',
+      name: 'slug',
+      type: 'slug',
+      validation: R => R.required(),
+      options: {
+        source: doc => doc.title,
+      },
+    },
   ],
 };

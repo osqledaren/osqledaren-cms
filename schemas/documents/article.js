@@ -9,15 +9,6 @@ export default {
       type: 'image',
     },
     {
-      title: 'Slug',
-      name: 'slug',
-      type: 'slug',
-      validation: R => R.required(),
-      options: {
-        source: doc => doc.title + '-' + doc.publishDate,
-      },
-    },
-    {
       name: 'title',
       title: 'Title',
       type: 'string',
@@ -39,6 +30,15 @@ export default {
       title: 'Category',
       type: 'reference',
       to: [{ type: 'category' }],
+    },
+    {
+      title: 'Slug',
+      name: 'slug',
+      type: 'slug',
+      validation: R => R.required(),
+      options: {
+        source: doc => doc.title + '-' + doc.publishDate,
+      },
     },
     {
       name: 'ingress',
