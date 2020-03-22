@@ -7,7 +7,6 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 // Document types
 import category from './documents/category';
 import article from './documents/article';
-import podcast from './documents/podcast';
 import creator from './documents/creator';
 import role from './documents/role';
 
@@ -25,7 +24,6 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     article,
-    podcast,
     creator,
     category,
     role,
