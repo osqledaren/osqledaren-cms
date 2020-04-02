@@ -7,11 +7,13 @@ export default {
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
+      validation: R => R.required(),
     },
     {
       name: 'title',
       title: 'Title',
       type: 'string',
+      validation: R => R.required(),
     },
     {
       name: 'creators',
@@ -19,17 +21,20 @@ export default {
       description: 'Add all contributors to this project',
       type: 'array',
       of: [{ type: 'contribution' }],
+      validation: R => R.required(),
     },
     {
       title: 'Publish Date',
       name: 'publishDate',
       type: 'date',
+      validation: R => R.required(),
     },
     {
       name: 'category',
       title: 'Category',
       type: 'reference',
       to: [{ type: 'category' }],
+      validation: R => R.required(),
     },
     {
       title: 'Slug',
@@ -44,11 +49,13 @@ export default {
       name: 'ingress',
       title: 'Ingress',
       type: 'text',
+      validation: R => R.required(),
     },
     {
       name: 'content',
       title: 'Content',
       type: 'richText',
+      validation: R => R.required(),
     },
   ],
   preview: {
