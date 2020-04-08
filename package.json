@@ -13,7 +13,7 @@
     "start": "sanity start",
     "test": "sanity check",
     "build": "sanity build public -y",
-    "deploy": "sanity graphql deploy"
+    "deploy": "sanity graphql deploy --no-playground --generation gen2"
   },
   "keywords": [
     "sanity"
