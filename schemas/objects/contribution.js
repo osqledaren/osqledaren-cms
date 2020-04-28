@@ -8,6 +8,7 @@ export default {
       title: 'Creator',
       type: 'reference',
       to: [{ type: 'creator' }],
+      validation: R => R.required(),
     },
     {
       name: 'role',
@@ -15,6 +16,7 @@ export default {
       description: 'What was your role?',
       type: 'reference',
       to: [{ type: 'role' }],
+      validation: R => R.required(),
     },
   ],
   preview: {
