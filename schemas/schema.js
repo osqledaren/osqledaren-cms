@@ -9,6 +9,7 @@ import category from './documents/category';
 import article from './documents/article';
 import creator from './documents/creator';
 import role from './documents/role';
+import podcast_id from './documents/podcast_id';
 
 // Object types
 import contribution from './objects/contribution';
@@ -27,6 +28,7 @@ export default createSchema({
     creator,
     category,
     role,
+    podcast_id,
     contribution,
     richText,
   ]),
