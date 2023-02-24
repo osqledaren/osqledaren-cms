@@ -19,5 +19,10 @@ export default {
       title: 'Profile Picture',
       type: 'image',
     },
+    {
+      name: 'currentMember',
+      title: 'Current member?',
+      type: 'boolean',
+    }
   ],
 };
