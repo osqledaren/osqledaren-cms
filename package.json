@@ -18,7 +18,7 @@
   "dependencies": {
     "@babel/core": "^7.7.2",
     "@sanity/base": "^2.35.5",
-    "@sanity/color-input": "^2.30.0",
+    "@sanity/color-input": "^2.36.0",
     "@sanity/components": "^2.14.0",
     "@sanity/core": "^2.35.6",
     "@sanity/dashboard": "^2.30.0",
