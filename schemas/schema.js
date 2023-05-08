@@ -10,6 +10,7 @@ import article from './documents/article';
 import creator from './documents/creator';
 import role from './documents/role';
 import podcast_id from './documents/podcast_id';
+import link from './documents/link';
 
 // Object types
 import contribution from './objects/contribution';
@@ -31,5 +32,6 @@ export default createSchema({
     podcast_id,
     contribution,
     richText,
+    link,
   ]),
 });

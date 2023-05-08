@@ -23,6 +23,6 @@ export default {
       name: 'currentMember',
       title: 'Current member?',
       type: 'boolean',
-    }
+    },
   ],
 };
