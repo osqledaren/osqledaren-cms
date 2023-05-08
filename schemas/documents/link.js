@@ -38,5 +38,11 @@ export default {
       title: 'Image',
       type: 'image',
     },
+    {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      validation: R => R.required(),
+    },
   ],
 };
