@@ -184,11 +184,6 @@ public/
 .dynamodb/
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
@@ -197,3 +192,6 @@ public/
 # End of https://www.gitignore.io/api/node,jetbrains,visualstudiocode
 
 public
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
